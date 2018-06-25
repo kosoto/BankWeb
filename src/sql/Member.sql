@@ -25,7 +25,19 @@ VALUES
 (
 	'kim','1','김유신','890620-1',SYSDATE,
 	'010-3559-5359','kstad@naver.com','kim.jpg','',5,
-	1,1000
+	addr_seq.nextval,1000
+);
+
+INSERT INTO member (
+	userid,pass,name,ssn,regidate,
+	phone,email,profile,access_num,credit_rating,
+	addr_seq,account_seq
+)
+VALUES
+(
+	'hong','1','홍길동','770310-1',SYSDATE,
+	'010-4678-6489','hong@naver.com','hong.jpg','',5,
+	addr_seq.nextval,1001
 );
 
 INSERT INTO member (
@@ -37,7 +49,91 @@ VALUES
 (
 	'lee','1','이순신','880520-1',SYSDATE,
 	'010-2130-3569','kosoto@naver.com','lee.jpg','',5,
-	2,1001
+	addr_seq.nextval,1002
+);
+
+INSERT INTO member (
+	userid,pass,name,ssn,regidate,
+	phone,email,profile,access_num,credit_rating,
+	addr_seq,account_seq
+)
+VALUES
+(
+	'gang','1','강감찬','500920-1',SYSDATE,
+	'010-4582-6783','gang@naver.com','gang.jpg','',5,
+	addr_seq.nextval,1003
+);
+
+INSERT INTO member (
+	userid,pass,name,ssn,regidate,
+	phone,email,profile,access_num,credit_rating,
+	addr_seq,account_seq
+)
+VALUES
+(
+	'go','1','고주몽','950811-1',SYSDATE,
+	'010-2130-3569','go@naver.com','go.jpg','',5,
+	addr_seq.nextval,1004
+);
+
+INSERT INTO member (
+	userid,pass,name,ssn,regidate,
+	phone,email,profile,access_num,credit_rating,
+	addr_seq,account_seq
+)
+VALUES
+(
+	'bi','1','비류','980226-1',SYSDATE,
+	'010-7828-5674','bi@naver.com','bi.jpg','',5,
+	addr_seq.nextval,1005
+);
+
+INSERT INTO member (
+	userid,pass,name,ssn,regidate,
+	phone,email,profile,access_num,credit_rating,
+	addr_seq,account_seq
+)
+VALUES
+(
+	'jo','1','조조','770511-1',SYSDATE,
+	'010-4488-3594','jo@naver.com','jo.jpg','',5,
+	addr_seq.nextval,1006
+);
+
+INSERT INTO member (
+	userid,pass,name,ssn,regidate,
+	phone,email,profile,access_num,credit_rating,
+	addr_seq,account_seq
+)
+VALUES
+(
+	'jang','1','장비','760312-1',SYSDATE,
+	'010-7821-0256','jang@naver.com','jang.jpg','',5,
+	addr_seq.nextval,1007
+);
+
+INSERT INTO member (
+	userid,pass,name,ssn,regidate,
+	phone,email,profile,access_num,credit_rating,
+	addr_seq,account_seq
+)
+VALUES
+(
+	'oh','1','오자서','550515-1',SYSDATE,
+	'010-9144-6363','oh@naver.com','oh.jpg','',5,
+	addr_seq.nextval,1008
+);
+
+INSERT INTO member (
+	userid,pass,name,ssn,regidate,
+	phone,email,profile,access_num,credit_rating,
+	addr_seq,account_seq
+)
+VALUES
+(
+	'yu','1','유비','660826-1',SYSDATE,
+	'010-6666-3423','yu@naver.com','yu.jpg','',5,
+	addr_seq.nextval,1009
 );
 
 SELECT userid, name ,account_no, city 
