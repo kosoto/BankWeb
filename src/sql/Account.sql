@@ -36,7 +36,67 @@ INSERT INTO account
 )
 VALUES
 (
+	account_seq.nextval,1300,'478-945-905','일반통장',SYSDATE,0
+)
+;
+
+INSERT INTO account
+(
 	account_seq,money,account_no,account_type,create_date,limit
+)
+VALUES
+(
+	account_seq.nextval,850,'429-546-657','일반통장',SYSDATE,0
+)
+;
+
+INSERT INTO account
+(
+	account_seq,money,account_no,account_type,create_date,limit
+)
+VALUES
+(
+	account_seq.nextval,700,'345-343-789','일반통장',SYSDATE,0
+)
+;
+
+INSERT INTO account
+(
+	account_seq,money,account_no,account_type,create_date,limit
+)
+VALUES
+(
+	account_seq.nextval,500,'004-509-675','일반통장',SYSDATE,0
+)
+;
+
+INSERT INTO account
+(
+	account_seq,money,account_no,account_type,create_date,limit
+)
+VALUES
+(
+	account_seq.nextval,300,'779-554-880','일반통장',SYSDATE,0
+)
+;
+
+INSERT INTO account
+(
+	account_seq,money,account_no,account_type,create_date,limit
+)
+VALUES
+(
+	account_seq.nextval,300,'472-895-678','일반통장',SYSDATE,0
+)
+;
+
+INSERT INTO account
+(
+	account_seq,money,account_no,account_type,create_date,limit
+)
+VALUES
+(
+	account_seq.nextval,5000,'428-343-541','일반통장',SYSDATE,0
 )
 ;
 
